@@ -1,0 +1,343 @@
+.Snav {
+  background: rgba(184, 181, 181, 0.374);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(41, 40, 40, 0.122);
+ 
+}
+.sidebar {
+  /* background: rgba(10, 9, 9, 0.45);
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px); */
+  background: rgba(184, 181, 181, 0.374);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(41, 40, 40, 0.122);
+}
+
+.cbox {
+  background: rgba(184, 181, 181, 0.374);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(41, 40, 40, 0.122);
+  
+}
+.Mpage {
+  /* background: #6d87be;
+background: -webkit-linear-gradient(121deg, #6d87be 0%, #cd4bde 100%);
+background: linear-gradient(121deg, #6d87be 0%, #cd4bde 100%); */
+background: #474bff;
+background: -webkit-linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+background: linear-gradient(0deg, #474bff 0%, #bc48ff 100%);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* navbutton */
+
+/* This is an example, feel free to delete this code */
+.tooltip-container {
+  background: rgb(3, 169, 244);
+  background: linear-gradient(
+    138deg,
+    rgba(3, 169, 244, 1) 15%,
+    rgba(63, 180, 233, 1) 65%
+  );
+  position: relative;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 0.7em 0.7em;
+  border-radius: 50px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.tooltip-container:hover {
+  background: #fff;
+  transition: all 0.6s;
+}
+.tooltip-container .text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fff;
+  transition: all 0.2s;
+}
+.tooltip-container:hover .text {
+  fill: rgb(3, 169, 244);
+  transition: all 0.6s;
+}
+
+/* Inicio do tooltip twitter */
+.tooltip1 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  /* visibility: hidden; */
+  background: #fff;
+  fill: #03a9f4;
+  padding: 10px;
+  border-radius: 50px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .tooltip-container:hover */
+.tooltip1 {
+  top: 150%;
+  opacity: 1;
+  /* visibility: visible; */
+  background: #fff;
+  border-radius: 50px;
+  transform: translate(-50%, -5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tooltip-container:hover .tooltip1:hover {
+  background: #03a9f4;
+  fill: #fff;
+}
+
+/* Fim do tooltip whatsApp */
+
+/* Inicio do tooltip Discord */
+.tooltip4 {
+  position: absolute;
+  top: 100%;
+  left: -190%;
+  transform: translateX(70%);
+  opacity: 0;
+  /* visibility: hidden;\ */
+  background: #fff;
+  fill: #8c9eff;
+  padding: 10px;
+  border-radius: 50px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dropdown {
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+}
+
+/* .tooltip-container:hover */
+.tooltip4 {
+  top: 10%;
+  opacity: 1;
+  /* visibility: visible; */
+  background: #fff;
+  transform: translate(70%, -5px);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .tooltip-container:hover */
+.tooltip4:hover {
+  background: #8c9eff;
+  fill: #fff;
+}
+
+/* Fim do tooltip dribbble */
+
+/* Inicio do tooltip github */
+.tooltip7 {
+  position: absolute;
+  top: 100%;
+  left: 39%;
+  transform: translateX(70%);
+  opacity: 0;
+  /* visibility: hidden; */
+  background: #fff;
+  fill: #000;
+  padding: 10px;
+  border-radius: 50px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .tooltip-container:hover */
+.tooltip7 {
+  top: 104%;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  transform: translate(70%, -5px);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tooltip-container:hover .tooltip7:hover {
+  background: #000;
+  fill: #fff;
+}
+/* Fim do tooltip github */
+
+/* Inicio do tooltip reddit */
+.tooltip8 {
+  position: absolute;
+  top: 100%;
+  left: -150%;
+  transform: translateX(70%);
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  fill: #ff4500;
+  padding: 10px;
+  border-radius: 50px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* .tooltip-container:hover */
+.tooltip8 {
+  top: 101%;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  transform: translate(70%, -5px);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tooltip-container:hover .tooltip8:hover {
+  background: #ff4500;
+  fill: #fff;
+}
+/* Fim do tooltip reddit */
+
+.inactive {
+  top: 101%;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  transform: translate(70%, -5px);
+  transition: var(--speed) ease;
+}
+.inactive {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: var(--speed) ease;
+}
+
+.Box{
+  background: rgba(148,154,221,0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+ 
+}
+
+
+.container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  background: rgba(255,255,255,0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  
+  /* margin: 0 15px; */
+  padding: 10px ;
+  border-radius: 7px;
+  user-select: none;
+}
+
+.container .skill-box {
+  width: 100%;
+  margin: 25px 0;
+}
+
+.skill-box .title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+}
+
+.skill-box .skill-bar {
+  height: 8px;
+  width: 100%;
+  border-radius: 6px;
+  margin-top: 6px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.skill-bar .skill-per {
+  position: relative;
+  display: block;
+  height: 100%;
+  width: 90%;
+  border-radius: 6px;
+  background: #000000;
+  animation: progress 0.4s ease-in-out forwards;
+  opacity: 0;
+}
+
+.skill-per.html {
+  /*progreso de las diferentes lenguajes*/
+  width: 80%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.css {
+  /*progreso de las diferentes lenguajes*/
+  width: 30%;
+  animation-delay: 0.1s;
+}
+
+.skill-per.javascript {
+  /*progreso de las diferentes lenguajes*/
+  width: 40%;
+  animation-delay: 0.2s;
+}
+
+.skill-per.nodejs {
+  /*progreso de las diferentes lenguajes*/
+  width: 70%;
+  animation-delay: 0.3s;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.skill-per .tooltip {
+  position: absolute;
+  right: -14px;
+  top: -28px;
+  font-size: 9px;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  background: #000000;
+
+  z-index: 1;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+  background: #000000;
+  transform: translateX(-50%) rotate(45deg);
+}
