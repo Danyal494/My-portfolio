@@ -101,6 +101,26 @@ const Projects = () => {
   <div class="">
     <div
       class="group-hover:scale-110 w-full h-60  duration-500"
+    ><img src="/comp.png" alt="" /></div>
+    <div
+      class="absolute w-56 left-0 p-5 -bottom-16 duration-500 group-hover:-translate-y-12"
+    >
+      <div
+        class="absolute -z-10 left-0 w-64 h-28 opacity-0 duration-500 group-hover:opacity-50 w-[300px]group-hover:bg-blue-900"
+      ></div>
+      <span class="text-xl font-bold">Computer-Portfolio </span>
+      <p class="group-hover:opacity-100 w-56 duration-500 opacity-0">
+        by using threejs we controll camera and and by i frame we showcase another website. 
+      </p>
+    </div>
+  </div>
+</div>
+<div
+  class="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
+>
+  <div class="">
+    <div
+      class="group-hover:scale-110 w-full h-60  duration-500"
     ><img src="/savethefish.png" alt="" /></div>
     <div
       class="absolute w-56 left-0 p-5 -bottom-12 duration-500 group-hover:-translate-y-12"
