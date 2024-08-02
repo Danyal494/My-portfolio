@@ -1,15 +1,15 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import { motion } from "framer-motion";
 const Navbar = () => {
   return (
-    <div
+    <motion.div initial={{opacity:0, x:100}} animate={{opacity:1 , x:0}} transition={{delay:0.7, duration:2}} 
       className="Snav mx-2 max-xl:hidden  list-none  shadow-xl rounded-lg
      "
     >
       <li className="border-2 border-slate-200   rounded-lg m-3 p-1">
-        <Link to="/" className="">
+        <Link to="/" className="about">
           <Icon
             icon="material-symbols:person"
             className="m-1"
@@ -49,7 +49,7 @@ const Navbar = () => {
           />
         </Link>
       </li>
-    </div>
+    </motion.div>
   );
 };
 

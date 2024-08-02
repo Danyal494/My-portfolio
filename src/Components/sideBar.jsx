@@ -1,9 +1,10 @@
 import React from 'react'
 import profile from '../assets/ProfilePic.jpg'
 import { Icon } from '@iconify/react/dist/iconify.js'
+import { motion } from 'framer-motion'
 const Sidebar = () => {
   return (
-    <div className='sidebar   rounded-lg my-28 mx-2  w-80 h-[710px] '>
+    <motion.div initial={{opacity:0, x:-100}} animate={{opacity:1 , x:0}} transition={{delay:0.7,duration:2}} className='sidebar   rounded-lg my-28 mx-2  w-80 h-[710px] '>
 
       <img className='rounded-md w-52 mx-auto -mt-16' src={profile} alt="" />
       <h3 className='text-white bg-slate-500 w-40 text-center mx-auto mt-3 rounded-md'>Danyal Khan</h3>
@@ -57,10 +58,10 @@ const Sidebar = () => {
       </div>
 
       <button
-  class="cursor-pointer mt-9 mx-auto flex items-center  bg-gray-800 px-3 py-2 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
+  className="cursor-pointer mt-9 mx-auto flex items-center  bg-gray-800 px-3 py-2 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
 >
   <svg
-    class="w-5 h-5"
+    className="w-5 h-5"
     stroke="currentColor"
     stroke-width="2"
     viewBox="0 0 24 24"
@@ -76,7 +77,7 @@ const Sidebar = () => {
   <p className='ml-2'>Download</p>
 </button>
 
-    </div>
+    </motion.div>
   )
 }
 
