@@ -1,5 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import React from "react";
+import {motion} from "framer-motion"
 
 const Projects = () => {
   return (
@@ -19,7 +20,7 @@ const Projects = () => {
 </div>
 
 <div className="flex gap-2 flex-wrap justify-evenly items-center mt-3">
-<div
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.4, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -54,8 +55,8 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
-<div
+</motion.div>
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.5, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -94,8 +95,8 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
-<div
+</motion.div>
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.6, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -134,8 +135,8 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
-<div
+</motion.div>
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.7, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -172,8 +173,8 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
-<div
+</motion.div>
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.8, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -208,8 +209,8 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
-<div
+</motion.div>
+<motion.div initial={{opacity:0 }} animate={{opacity:1 }} transition={{delay:0.5, duration:1}}
   className="relative group cursor-pointer rounded-lg overflow-hidden duration-500 w-[300px] h-64 bg-zinc-800 text-gray-50 p-5"
 >
   <div className="">
@@ -247,7 +248,7 @@ const Projects = () => {
       </p>
     </div>
   </div>
-</div>
+</motion.div>
 
 </div>
 

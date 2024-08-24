@@ -14,7 +14,7 @@ const Sidebar = () => {
         <li className='text-white'><a  target="_blank" href="https://github.com/Danyal494"><Icon icon="skill-icons:github-dark" width={"30px"} /></a></li>
         <li className='text-white'><a target="_blank" href="https://www.linkedin.com/in/danyal-khan-562b17301/"><Icon icon="devicon:linkedin" width={"30px"} /></a></li>
         <li className='text-white'><a target="_blank" href="https://www.instagram.com/danyal974/"><Icon icon="skill-icons:instagram" width={"30px"} /></a></li>
-        {/* <li className='text-white'><a target="_blank" href=""><Icon icon="fa6-brands:square-upwork" width={"30px"} /></a></li> */}
+        <li className='text-white'><a target="_blank" href=""><Icon icon="fa6-brands:square-upwork" width={"30px"} /></a></li>
       </div>
       
       <div className="Cbox h-[290px] shadow-lg  border-[2px] border-slate-600 mx-4 my-5 py-0.5 rounded-lg  ">
@@ -63,15 +63,15 @@ const Sidebar = () => {
   <svg
     className="w-5 h-5"
     stroke="currentColor"
-    stroke-width="2"
+    strokeWidth="2"
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
       d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
-      stroke-linejoin="round"
-      stroke-linecap="round"
+      strokeLinejoin="round"
+      strokeLinecap="round"
     ></path>
   </svg>
   <p className='ml-2'>Download</p>

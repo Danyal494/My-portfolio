@@ -1,8 +1,27 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
+import Modal from "../ThreeD/Modal";
+
 
 const Contact = () => {
   const [result, setResult] = React.useState("");
+
+  const [showModal, setShowModal] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setShowModal(window.innerWidth >= 1000);
+    };
+
+    // Check the window size initially
+    handleResize();
+
+    // Add event listener to handle window resize
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const onSubmit = async (event) => {
     event.preventDefault();
@@ -33,7 +52,13 @@ const Contact = () => {
     }
   };
 
-  return <div id="cont ">
+ 
+  return(
+
+<div className="flex items-center justify-center">
+
+
+  <div id="cont ">
       <p className=" text-5xl font-bold text-[#D5DCDE] ">Get in touch</p>
         <h3 className="text-3xl mt-2 font-bold text-[#D5DCDE]">Contact.</h3>
     <div className="w-[412px] max-sm:w-[248px] p-4 mx-auto">
@@ -55,14 +80,14 @@ const Contact = () => {
               type="email"
               // w-[380px] max-sm:w-[231px]
               className="bg-tertiary py-4 px-6
-             w-[100%]
-               placeholder:text-secondary text-black rounded-lg outlined-none border-none font-medium" required
+              w-[100%]
+              placeholder:text-secondary text-black rounded-lg outlined-none border-none font-medium" required
               placeholder="Whats your email?"
               name="email"
               id=""
               />
           </label>
-          <label clfassName="flex flex-col">
+          <label className="flex flex-col">
             <span className="text-[#D5DCDE]  font-medium mb-4">Your Message</span>
             <textarea
               rows="4"
@@ -80,7 +105,10 @@ const Contact = () => {
           </button>
         </form>
             </div>
-  </div>;
+  </div>
+  {showModal && <Modal />}
+              </div>
+)
 };
 
 export default Contact;
