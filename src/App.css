@@ -1,3 +1,7 @@
+
+*{
+  cursor: none;
+}
 .Snav {
   background: rgba(184, 181, 181, 0.374);
   -webkit-backdrop-filter: blur(10px);
@@ -5,6 +9,23 @@
   border: 1px solid rgba(41, 40, 40, 0.122);
  
 }
+
+.cursor-dot{
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+}
+
+.cursor-outline{
+  border-color: #ee0979;  
+  border-color: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  
+  border-color: linear-gradient(to right, #ff6a00, #ee0979); 
+  
+
+}
+
 .sidebar {
   /* background: rgba(10, 9, 9, 0.45);
   -webkit-backdrop-filter: blur(3px);
@@ -341,3 +362,7 @@ background: radial-gradient(circle, #4776e6 0%, #8e54e9 100%);
   background: #000000;
   transform: translateX(-50%) rotate(45deg);
 }
+
+/* cursor */
+
+

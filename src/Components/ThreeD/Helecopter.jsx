@@ -17,7 +17,7 @@ export function Helecopter(props) {
 
   return (
     <group ref={group} {...props} dispose={null}>
-      <group name="Sketchfab_Scene" position={[0,0,-2]}  scale={ 0.2 }>
+      <group name="Sketchfab_Scene" position={[-0.1,0,-2]}  scale={ 0.2 }>
         <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, -6.7]}>
           <group name="root">
             <group name="GLTF_SceneRootNode" rotation={[Math.PI / 2, 0, 0]}>
