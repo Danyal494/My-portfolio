@@ -32,7 +32,7 @@ const Resume = () => {
 <p>Fasil Town Lahore</p>
   </div>
   <div className="box mt-4 rounded-xl bg-indigo-400 p-2">
-  <p>April-2024</p>
+  <p>May-2024</p>
 <p>Frontend Web Development </p>
 <p>Junior</p>
 <p>Heapware</p>
