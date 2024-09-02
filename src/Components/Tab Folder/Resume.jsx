@@ -15,7 +15,7 @@ const Resume = () => {
 <p> Johar Town lahore</p>
   </div> 
    <div className="box mt-4 rounded-xl bg-indigo-400 p-2">
-<p>Dec-2023</p>
+<p>May-2024</p>
 <p>Frontend Web Development </p>
 <p>Ideoversity</p>
 <p>Fasil Town Lahore</p>
@@ -25,7 +25,7 @@ const Resume = () => {
 <div className="Rbox   p-2  w-[300px]">
   <h1 className="font-bold text-[#D5DCDE] text-base">Experance</h1>
   <div className="box mt-4 rounded-xl bg-purple-500 p-2">
-<p>Dec-2024</p>
+<p>Feb-2024</p>
 <p>Frontend Devaloper </p>
 <p>Intern</p>
 <p>Ideoversity</p>
@@ -110,7 +110,8 @@ const Resume = () => {
 <div className="flex justify-evenly flex-wrap mt-7">
 
 <div className="gg bg-slate-400 rounded-xl p-2"> Three fiber</div>
-<div className="gg bg-slate-400 rounded-xl p-2"> Three drie</div>
+<div className="gg bg-slate-400 rounded-xl  p-2"> Shader</div>
+<div className="gg bg-slate-400 rounded-xl mt-1 p-2"> Three drei</div>
 </div>
 </div>
 </div>

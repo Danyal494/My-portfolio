@@ -14,7 +14,7 @@ const Sidebar = () => {
         <li className='text-white'><a  target="_blank" href="https://github.com/Danyal494"><Icon icon="skill-icons:github-dark" width={"30px"} /></a></li>
         <li className='text-white'><a target="_blank" href="https://www.linkedin.com/in/danyal-khan-562b17301/"><Icon icon="devicon:linkedin" width={"30px"} /></a></li>
         <li className='text-white'><a target="_blank" href="https://www.instagram.com/danyal974/"><Icon icon="skill-icons:instagram" width={"30px"} /></a></li>
-        <li className='text-white'><a target="_blank" href=""><Icon icon="fa6-brands:square-upwork" width={"30px"} /></a></li>
+       
       </div>
       
       <div className="Cbox h-[290px] shadow-lg  border-[2px] border-slate-600 mx-4 my-5 py-0.5 rounded-lg  ">
@@ -60,6 +60,8 @@ const Sidebar = () => {
       <button
   className="cursor-pointer mt-9 mx-auto flex items-center  bg-gray-800 px-3 py-2 rounded-md text-white tracking-wider shadow-xl animate-bounce hover:animate-none"
 >
+  <a href="/Resume.pdf" className='flex items-center justify-center' download>
+
   <svg
     className="w-5 h-5"
     stroke="currentColor"
@@ -67,14 +69,15 @@ const Sidebar = () => {
     viewBox="0 0 24 24"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-  >
+    >
     <path
       d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3"
       strokeLinejoin="round"
       strokeLinecap="round"
-    ></path>
+      ></path>
   </svg>
   <p className='ml-2'>Download</p>
+      </a>
 </button>
 
     </motion.div>

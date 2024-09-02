@@ -32,7 +32,7 @@ const Navbutton = () => {
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setopen(false);
-        console.log(open);
+        // console.log(open);
       }
     }
 

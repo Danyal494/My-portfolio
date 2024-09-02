@@ -56,12 +56,12 @@ function App() {
         <div>
           <div
             ref={cursorDotRef}
-            className="cursor-dot w-[5px] h-[5px] bg-slate-800 fixed top-0 left-0 z-10 rounded-full translate-y-[-50%] translate-x-[-50%] pointer-events-none"
+            className="cursor-dot w-[5px] h-[5px] bg-slate-800 fixed top-0 left-0 z-10 rounded-full max-sm:hidden translate-y-[-50%] translate-x-[-50%] pointer-events-none"
             data-cursor-dot
           ></div>
           <div
             ref={cursorOutlineRef}
-            className="cursor-outline translate-y-[-50%] translate-x-[-50%] w-[30px] h-[30px] fixed top-0 left-0 z-10 pointer-events-none border-2 rounded-[50%] justify-center"
+            className="cursor-outline max-sm:hidden translate-y-[-50%] translate-x-[-50%] w-[30px] h-[30px] fixed top-0 left-0 z-10 pointer-events-none border-2 rounded-[50%] justify-center"
             data-cursor-outline
           ></div>
           <Navbutton />
