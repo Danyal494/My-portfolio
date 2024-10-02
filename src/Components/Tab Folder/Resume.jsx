@@ -36,7 +36,7 @@ const Resume = () => {
 <p>Frontend Web Development </p>
 <p>Junior</p>
 <p>Heapware</p>
-<p>Fasil Town Lahore</p>
+<p>Arfa Tower Lahore</p>
     </div>
 </div>
     </div>
