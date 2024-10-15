@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react/dist/iconify.js'
 import { motion } from 'framer-motion'
 const Sidebar = () => {
   return (
-    <motion.div initial={{opacity:0, x:-100}} animate={{opacity:1 , x:0}} transition={{delay:0.7,duration:2}} className='sidebar   rounded-lg my-28 mx-2  w-80 h-[710px] '>
+    <motion.div initial={{opacity:0, x:100}} animate={{opacity:1 , x:0}} transition={{delay:0,duration:0.5}} className='sidebar   rounded-lg my-28 mx-2  w-80 h-[710px] '>
 
       <img className='rounded-md w-52 mx-auto -mt-16' src={profile} alt="" />
       <h3 className='text-white bg-slate-500 w-40 text-center mx-auto mt-3 rounded-md'>Danyal Khan</h3>

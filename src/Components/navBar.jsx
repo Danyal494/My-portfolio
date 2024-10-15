@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Navbar = () => {
   return (
-    <motion.div initial={{opacity:0, x:100}} animate={{opacity:1 , x:0}} transition={{delay:0.7, duration:2}} 
+    <motion.div initial={{opacity:0, x:-100}} animate={{opacity:1 , x:0}} transition={{delay:0.5, duration:1}} 
       className="Snav mx-2 max-xl:hidden  list-none  shadow-xl rounded-lg
      "
     >
