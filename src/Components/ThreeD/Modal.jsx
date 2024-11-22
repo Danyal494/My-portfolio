@@ -2,7 +2,7 @@ import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { Helecopter } from './Helecopter'
 import { Environment, Float, OrbitControls, Stage } from '@react-three/drei'
-import lod from '../Background/Background'
+import lod from '../Background/Lod'
 
 const Modal = () => {
   return (

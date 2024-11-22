@@ -5,7 +5,7 @@ bouncy.register()
 
 const lod = () => {
   return (
-    <div style={{  display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <div style={{ height:"100vh" , display: "flex", justifyContent: "center", alignItems: "center" }}>
   <l-bouncy
   size="40"
   speed="1.75" 
@@ -17,5 +17,3 @@ const lod = () => {
 };
 
 export default lod;
-
-
