@@ -3,7 +3,7 @@ import { bouncy } from 'ldrs'
 
 bouncy.register()
 
-const Background = () => {
+const lod = () => {
   return (
     <div style={{  display: "flex", justifyContent: "center", alignItems: "center" }}>
   <l-bouncy
@@ -16,6 +16,6 @@ const Background = () => {
   );
 };
 
-export default Background;
+export default lod;
 
 
