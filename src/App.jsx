@@ -49,7 +49,8 @@ function App() {
   }, []);
 
   return (
-    <div className="Mpage">
+    <div className="gradient-background">
+      
       {loading ? (
         <Loader />
       ) : (

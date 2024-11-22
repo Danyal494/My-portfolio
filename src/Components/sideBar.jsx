@@ -1,5 +1,6 @@
 import React from 'react'
-import profile from '../assets/ProfilePic.jpg'
+// import profile from '../assets/ProfilePic.jpg'
+import profile from '../assets/ProfilePic.webp'
 import { Icon } from '@iconify/react/dist/iconify.js'
 import { motion } from 'framer-motion'
 const Sidebar = () => {

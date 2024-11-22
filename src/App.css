@@ -44,13 +44,38 @@
   
 }
 .Mpage {
-  /* background: #6d87be;
+  background: #6d87be;
 background: -webkit-linear-gradient(121deg, #6d87be 0%, #cd4bde 100%);
-background: linear-gradient(121deg, #6d87be 0%, #cd4bde 100%); */
+background: linear-gradient(121deg, #6d87be 0%, #cd4bde 100%);
 background: #4776e6;
 background: -webkit-radial-gradient(circle, #4776e6 0%, #8e54e9 100%);
 background: radial-gradient(circle, #4776e6 0%, #8e54e9 100%);
 }
+
+.gradient-background {
+  background: linear-gradient(300deg,deepskyblue,darkviolet,blue);
+  background-size: 180% 180%;
+  animation: gradient-animation 12s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
 ::-webkit-scrollbar {
   display: none;
 }
