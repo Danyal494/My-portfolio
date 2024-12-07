@@ -11,6 +11,8 @@ function App() {
   const cursorOutlineRef = useRef(null);
   const [loading, setLoading] = useState(true);
 
+
+  
   useEffect(() => {
     const handleMouseMove = (e) => {
       const cursorDot = cursorDotRef.current;

@@ -25,14 +25,14 @@ const Resume = () => {
 <div className="Rbox   p-2  w-[300px]">
   <h1 className="font-bold text-[#D5DCDE] text-base">Experance</h1>
   <div className="box mt-4 rounded-xl bg-purple-500 p-2">
-<p>April-2024</p>
+<p>June-2024</p>
 <p>Frontend Devaloper </p>
 <p>Intern</p>
 <p>Ideoversity</p>
 <p>Fasil Town Lahore</p>
   </div>
   <div className="box mt-4 rounded-xl bg-indigo-400 p-2">
-  <p>July-2024</p>
+  <p>September-2024</p>
 <p>Frontend Web Development </p>
 <p>Junior</p>
 <p>Heapware</p>
