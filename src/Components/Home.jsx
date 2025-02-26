@@ -7,7 +7,7 @@ import Contact from "./Tab Folder/Contact";
 
 const Home = () => {
   return (
-    <div className=" cbox w-[60%] max-sm:w-[95%] p-6 mx-1 rounded-2xl h-full ">
+    <div className=" cbox w-[60%]   max-sm:w-[95%] p-6 mx-1 rounded-2xl h-full ">
       <Routes>
         <Route path="/" element={<Aboutme />} />
         <Route path="/resume" element={<Resume />} />

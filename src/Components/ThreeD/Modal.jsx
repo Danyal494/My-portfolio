@@ -2,11 +2,11 @@ import { Canvas } from '@react-three/fiber'
 import React, { Suspense } from 'react'
 import { Helecopter } from './Helecopter'
 import { Environment, Float, OrbitControls, Stage } from '@react-three/drei'
-import lod from '../Background/Lod'
+import Lod from '../Background/Lod'
 
 const Modal = () => {
   return (
-    <Suspense fallback={<lod/>}>
+    <Suspense fallback={<Lod/>}>
    <Canvas camera={{ position: [1, 3, 10], fov: 50 }} style={{ height: "60vh", borderRadius: "20%" }}>
       <Stage>
         <Float autoInvalidate>

@@ -28,7 +28,7 @@ const Contact = () => {
     setResult("Sending....");
     const forsmata = new FormData(event.target);
 
-    forsmata.append("access_key", "35366233-9b05-477f-949a-db2bf9ec9017");
+    forsmata.append("access_key", "098ce199-f5ab-4d36-a64d-daacce3cf367");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",

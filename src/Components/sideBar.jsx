@@ -34,7 +34,7 @@ const Sidebar = () => {
   </div>
   <div className="info py-[2px] text-white">
     <p className='text-sm font-extralight'>Gmail</p>
-    <h3 className=''>dk7167301@gmail.com</h3>
+    <h3 className=''>m.danyalkhan916@gmail.com</h3>
   </div>
 </div>
 <div className='location  border-b-[2px] border-slate-600 flex items-center  mx-4 my-5'>
