@@ -5,7 +5,7 @@ bouncy.register()
 
 const Lod = () => {
   return (
-    <div style={{ height:"100vh" , display: "flex", justifyContent: "center", alignItems: "center" }}>
+    <div style={{ width:"100vh" , display: "flex", justifyContent: "center", alignItems: "center" }}>
   <l-bouncy
   size="40"
   speed="1.75" 
