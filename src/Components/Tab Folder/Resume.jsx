@@ -99,8 +99,8 @@ const Resume = () => {
 <h1 className="font-bold text-[#D5DCDE] text-lg ">Things I Know</h1>
 <div className="flex justify-evenly flex-wrap mt-7">
 
-<div className="gg bg-slate-400 rounded-xl p-2">web3</div>
-<div className="gg bg-slate-400 rounded-xl p-2 mx-2 my-2">Artifecial Intalligance</div>
+<div className="gg bg-slate-400 rounded-xl p-2">Blender</div>
+<div className="gg bg-slate-400 rounded-xl p-2 mx-2 my-2">Artificial Intelligence</div>
 </div>
 <div className="flex justify-evenly flex-wrap mt-7">
 
