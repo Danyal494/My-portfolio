@@ -12,7 +12,7 @@ import { useGLTF } from '@react-three/drei'
 export function Car(props) {
   const { nodes, materials } = useGLTF('/nissan_skyline_gt500__www.vecarz.com.glb')
   return (
-    <group {...props} dispose={null} position={[0,-0.5,0]}>
+    <group {...props} dispose={null} scale={0.9} position={[0,-0.5,0]}>
       <group rotation={[-Math.PI / 2, 0, 0]}>
         <group position={[-0.795, 1.292, 0.342]} rotation={[0, 0.035, 0]}>
           <group position={[0.001, 0, 0]}>

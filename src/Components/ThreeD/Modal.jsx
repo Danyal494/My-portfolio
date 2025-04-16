@@ -10,7 +10,7 @@ const Modal = () => {
       <Suspense fallback={<Lod />}>
     <Canvas camera={{ position: [1, 3, 10], fov: 20 }} style={{ height: "60vh", borderRadius: "20%" }}>
         {/* OrbitControls outside Float */}
-        <OrbitControls enableZoom={false} enableRotate={false}  />
+        <OrbitControls enableZoom={false} autoRotate={true} enableRotate={false}   />
 
         {/* Optional: let Stage handle lighting/environment */}
         
