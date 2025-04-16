@@ -1,27 +1,33 @@
-import { Canvas } from '@react-three/fiber'
-import React, { Suspense } from 'react'
-import { Helecopter } from './Helecopter'
-import { Environment, Float, OrbitControls, Stage } from '@react-three/drei'
-import Lod from '../Background/Lod'
+import { Environment, Float, Lightformer, OrbitControls, RandomizedLight, Stage } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+
+import Lod from "../Background/Lod";
+import { Car } from "./Car";
 
 const Modal = () => {
   return (
-    <Suspense fallback={<Lod/>}>
-   <Canvas camera={{ position: [1, 3, 10], fov: 50 }} style={{ height: "60vh", borderRadius: "20%" }}>
-      <Stage>
-        <Float autoInvalidate>
-          <OrbitControls enableZoom={false}   minPolarAngle={Math.PI / 4}  // Prevent downward movement
-  maxPolarAngle={Math.PI / 2}  />
-          <ambientLight intensity={1.5} />
-          <Environment preset='city' 
-          // background={true}
-           />
-          <Helecopter />
-        </Float>
-      </Stage>
-   </Canvas>
-    </Suspense>
-  )
-}
+      <Suspense fallback={<Lod />}>
+    <Canvas camera={{ position: [1, 3, 10], fov: 20 }} style={{ height: "60vh", borderRadius: "20%" }}>
+        {/* OrbitControls outside Float */}
+        <OrbitControls enableZoom={false} enableRotate={false}  />
 
-export default Modal
+        {/* Optional: let Stage handle lighting/environment */}
+        
+        <RandomizedLight castShadow amount={8} frames={100} position={[5, 5, -10]} />
+
+<ambientLight intensity={4} />
+<ambientLight intensity={4} />
+<Lightformer intensity={0.75} rotation-x={Math.PI / 2} position={[0, 5, -9]} scale={[10, 10, 1]} />
+
+          <Float speed={2} rotationIntensity={1}>
+           <Car/>
+          </Float>
+       
+   
+    </Canvas>
+      </Suspense>
+  );
+};
+
+export default Modal;

@@ -51,7 +51,9 @@ function App() {
   }, []);
 
   return (
-    <div className="gradient-background">
+
+
+    <div className="gradient-background pb-5 ">
       
       {loading ? (
         <Loader />
@@ -61,14 +63,14 @@ function App() {
             ref={cursorDotRef}
             className="cursor-dot w-[5px] h-[5px] bg-slate-800 fixed top-0 left-0 z-10 rounded-full max-sm:hidden translate-y-[-50%] translate-x-[-50%] pointer-events-none"
             data-cursor-dot
-          ></div>
+            ></div>
           <div
             ref={cursorOutlineRef}
             className="cursor-outline max-sm:hidden translate-y-[-50%] translate-x-[-50%] w-[30px] h-[30px] fixed top-0 left-0 z-10 pointer-events-none border-2 rounded-[50%] justify-center"
             data-cursor-outline
-          ></div>
+            ></div>
           <Navbutton />
-          <div className="navbar p-5 flex-wrap flex justify-evenly items-center">
+          <div className="navbar p-1 flex-wrap flex justify-evenly  items-center">
             <Sidebar />
             <Home />
             <Navbar />
@@ -76,6 +78,7 @@ function App() {
         </div>
       )}
     </div>
+
   );
 }
 

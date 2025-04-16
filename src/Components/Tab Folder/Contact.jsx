@@ -68,7 +68,7 @@ const Contact = () => {
             <span className="text-[#D5DCDE] font-medium mb-4">Your Name</span>
             <input
               type="text"
-              className="bg-tertiary  w-[100%] py-4 px-6 placeholder:text-secondary text-black rounded-lg outlined-none border-none font-medium " required
+              className="bg-tertiary  w-[100%] py-4 px-6 placeholder:text-secondary text-black rounded-lg outlined-none border-none bg-white font-medium " required
               placeholder="Whats your name?"
               name="name"
               id=""
@@ -81,7 +81,7 @@ const Contact = () => {
               // w-[380px] max-sm:w-[231px]
               className="bg-tertiary py-4 px-6
               w-[100%]
-              placeholder:text-secondary text-black rounded-lg outlined-none border-none font-medium" required
+              placeholder:text-secondary text-black rounded-lg outlined-none border-none bg-white font-medium" required
               placeholder="Whats your email?"
               name="email"
               id=""
@@ -91,7 +91,7 @@ const Contact = () => {
             <span className="text-[#D5DCDE]  font-medium mb-4">Your Message</span>
             <textarea
               rows="4"
-              className="bg-tertiary mt-3  py-4 px-6  w-[80%] placeholder:text-secondary text-black rounded-lg outlined-none border-none font-medium "required
+              className="bg-tertiary mt-3  py-4 px-6  w-[80%] placeholder:text-secondary text-black rounded-lg outlined-none bg-white border-none font-medium "required
               placeholder="Whats do you want to say?"
               name="message"
               id=""
@@ -99,15 +99,16 @@ const Contact = () => {
           </label>
           <button
             type="submit"
-            className="bg-teal-400 py-3 px-8 w-fit   outline-none font-bold rounded-xl shadow-primary text-[#D5DCDE] shadow-sm "
+            className="bg-teal-400 py-3 px-8 w-fit   outline-none font-bold rounded-xl shadow-primary text-[#D5DCDE]  shadow-sm "
             >
               Send
           </button>
         </form>
             </div>
   </div>
-  {showModal && <Modal />}
-              </div>
+ 
+  {showModal && <Modal />}    
+            </div>
 )
 };
 

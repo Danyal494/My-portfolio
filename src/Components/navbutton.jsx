@@ -2,6 +2,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 // let useClickOutside = (handler) => {
 //   let domNode = useRef();
 
@@ -43,7 +44,10 @@ const Navbutton = () => {
   }, []);
 
   return (
-    <div className="flex justify-end xl:hidden      " ref={dropdownRef}>
+    <div className="fixed z-50 -right-1 -top-8 xl:hidden    ">
+
+  
+    <div className="flex justify-end   " ref={dropdownRef}>
       {/* <Toolti  */}
       <div
         className="tooltip-container  mt-11 mr-12  "
@@ -95,6 +99,7 @@ const Navbutton = () => {
           </div>
         )}
       </div>
+    </div>
     </div>
     //{" "}
   );
