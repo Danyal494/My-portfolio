@@ -9,7 +9,7 @@ const Resume = () => {
 <div className="Rbox p-2  w-[300px]">
   <h1 className="font-bold text-[#D5DCDE] text-base">Education</h1>
   <div className="box mt-4 rounded-xl bg-teal-400 p-2">
-    <p>May-2024</p>
+    <p>March-2024</p>
 <p>Bachelor of Science in Computer Science</p>
 <p>UMT </p>
 <p> Johar Town lahore</p>
@@ -100,7 +100,7 @@ const Resume = () => {
 <div className="flex justify-evenly flex-wrap mt-7">
 
 <div className="gg bg-slate-400 rounded-xl p-2">Blender</div>
-<div className="gg bg-slate-400 rounded-xl p-2 mx-2 my-2">Artificial Intelligence</div>
+<div className="gg bg-slate-400 rounded-xl p-2 mx-2 my-2">Figma</div>
 </div>
 <div className="flex justify-evenly flex-wrap mt-7">
 

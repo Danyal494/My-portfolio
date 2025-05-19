@@ -25,20 +25,24 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://solar-system-three-mu.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://solar-system-three-mu.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} /> 
   </button>
+   </a>
 </section>
   <section className=" absolute ml-11  z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://github.com/Danyal494/Solar-system">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://github.com/Danyal494/Solar-system"><Icon icon="bxl:github" height={"1.3em"} /> </a>
+   <Icon icon="bxl:github" height={"1.3em"} /> 
   </button>
+   </a>
 </section>
     <div
       className="group-hover:scale-110 w-full h-60  duration-500"
@@ -61,24 +65,26 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://breads-six.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://breads-six.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} />
   </button>
+    </a>
 </section>
   <section className=" absolute ml-11 z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://github.com/Danyal494/Breads">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-    <a target="_blank"  href="https://github.com/Danyal494/Breads">
 
     <Icon icon="bxl:github" height={"1.3em"} />
-    </a>
     
   </button>
+    </a>
 </section>
     <div
       className="group-hover:scale-110 w-full h-60  duration-500"
@@ -101,24 +107,26 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://kanban-board-seven-nu.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://kanban-board-seven-nu.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} /> 
   </button>
+   </a>
 </section>
   <section className=" absolute ml-11 z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://github.com/Danyal494/Kanban-Board">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-    <a target="_blank"  href="https://github.com/Danyal494/Kanban-Board">
       
     <Icon icon="bxl:github" height={"1.3em"} />
-    </a>
     
   </button>
+    </a>
 </section>
     <div
       className="group-hover:scale-110 w-full h-60  duration-500"
@@ -141,20 +149,24 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://road-crossing.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://road-crossing.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} />
   </button>
+    </a>
 </section>
       <section className=" absolute ml-11 z-10 flex justify-center items-center">
+        <a target="_blank"  href="https://github.com/Danyal494/Road-crossing">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-    <a target="_blank"  href="https://github.com/Danyal494/Road-crossing"> <Icon icon="bxl:github" height={"1.3em"} /></a>
+     <Icon icon="bxl:github" height={"1.3em"} />
   </button>
+     </a>
 </section>
     <div
       className="relative group-hover:scale-110 w-full h-60  duration-500"
@@ -179,20 +191,24 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://computer-portfolio-nu.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://computer-portfolio-nu.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} />
   </button>
+    </a>
 </section>
   <section className=" absolute ml-11 z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://github.com/Danyal494/Computer-Portfolio">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://github.com/Danyal494/Computer-Portfolio"> <Icon icon="bxl:github" height={"1.3em"} /></a> 
+    <Icon icon="bxl:github" height={"1.3em"} />
   </button>
+   </a> 
 </section>
     <div
       className="group-hover:scale-110 w-full h-60  duration-500"
@@ -215,23 +231,25 @@ const Projects = () => {
 >
   <div className="">
   <section className=" absolute z-10 11 flex justify-center items-center">
+  <a target="_blank"  href="https://save-the-fish-ten.vercel.app/">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-   <a target="_blank"  href="https://save-the-fish-ten.vercel.app/"><Icon icon="ion:logo-vercel" height={"1.3em"} /> </a>
+   <Icon icon="ion:logo-vercel" height={"1.3em"} />
   </button>
+    </a>
 </section>
   <section className=" absolute ml-11 z-10 flex justify-center items-center">
+    <a target="_blank"  href="https://github.com/Danyal494/Save-The-Fish">
   <button
     href="/"
     className="group flex justify-center p-2 rounded-md drop-shadow-xl from-gray-800 bg-[#316FF6] text-[#D5DCDE] font-semibold hover:translate-y-3 hover:rounded-[50%] transition-all duration-500 hover:from-[#331029] hover:to-[#310413]"
   >
-    <a target="_blank"  href="https://github.com/Danyal494/Save-The-Fish">
 
  <Icon icon="bxl:github" height={"1.3em"} />
-    </a>
   </button>
+    </a>
 </section>
     <div
       className="group-hover:scale-110 w-full h-60  duration-500"

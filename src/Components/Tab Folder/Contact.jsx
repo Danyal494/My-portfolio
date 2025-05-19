@@ -10,16 +10,15 @@ const Contact = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setShowModal(window.innerWidth >= 1000);
+      setShowModal(window.innerWidth >= 1280);
     };
 
-    // Check the window size initially
+
     handleResize();
 
-    // Add event listener to handle window resize
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener on component unmount
+  
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
